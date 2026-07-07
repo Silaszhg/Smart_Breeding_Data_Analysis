@@ -12,7 +12,7 @@ import os
 
 # 设置路径
 DATA_DIR = "./data/processed"
-FIG_DIR = "./data/figures"
+FIG_DIR = "./data/figures/data_analysis"
 os.makedirs(FIG_DIR, exist_ok=True)
 
 # 设置中文字体
