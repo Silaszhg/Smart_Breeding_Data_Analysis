@@ -1,0 +1,25 @@
+# 1. 忽略 Python 虚拟环境（极其重要，避免数万个第三方库依赖项被上传）
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 2. 忽略 VS Code 的本地配置和缓存
+.vscode/
+.history/
+
+# 3. 忽略 Jupyter Notebook 的检查点和缓存
+.ipynb_checkpoints/
+
+# 4. 根据你的实际需求决定是否忽略数据
+# 如果你之前决定将较小的样本数据直接上传到 GitHub 备份，请保持下面这行的注释（前面加 #）
+# 如果你未来数据变大了，或者数据包含敏感商业隐私，请取消下面的注释：
+# data/raw/
+# data/processed/
+
+# 5. 忽略系统产生的临时文件
+.DS_Store
+Thumbs.db
